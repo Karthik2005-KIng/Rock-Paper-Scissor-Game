@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url('./Image/RPS1.png'); 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+
+}
+
+h1 {
+ background-color: antiquewhite;
+  color: blueviolet;
+  height: 5rem;
+  line-height: 5rem;
+  margin-bottom: 1rem;
+  padding: 0 2rem; 
+  border-radius: 15px; 
+  box-shadow: 0 6px 12px rgba(50, 192, 232, 0.15), 
+              0 3px 6px rgba(0, 0, 0, 0.1); 
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease-in-out;
+  display: inline-block; 
+  font-weight: bold; 
+  letter-spacing: 1.5;
+  text-transform: uppercase; 
+  border: 2px solid rgba(138, 43, 226, 0.5); 
+  
+}
+
+h1:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(77, 210, 237, 0.2);  
+}
+
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+    
+}
+
+.choice:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    background-color: blueviolet;
+    transform: scale(1.05);
+
+
+}
+
+
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+     
+
+}
+
+
+.Score-Board {
+  display: flex;
+  width: fit-content;
+
+   justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+    margin: 5rem auto;
+    gap: 5rem;
+    background: rgba(255, 255, 255, 0.2);  
+    padding: 1rem 2rem;
+    border-radius: 10px;
+
+  }
+
+  #user-score, #Comp-score{
+    font-size: 3rem;
+
+  }
+
+  .msg-container{
+    margin-top: 5rem;
+  }
+
+  #msg{
+
+    background-color:blueviolet;
+    color: antiquewhite;
+    margin-top: 5rem;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
+  }
+
